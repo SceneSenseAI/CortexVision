@@ -1,3 +1,32 @@
+# Python virtual environments
+.sceneai/
+venv/
+.venv/
+
+# Datasets
+notebooks/data_cnn/
+data/
+datasets/
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+
+
 # Byte-compiled / optimized / DLL files
 .DS_Store
 venv/
