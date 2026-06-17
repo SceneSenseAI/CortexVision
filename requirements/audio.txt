@@ -1,0 +1,11 @@
+openai-whisper
+
+sounddevice
+
+soundfile
+
+librosa
+
+pyaudio
+
+panns-inference

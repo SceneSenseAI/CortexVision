@@ -1,0 +1,7 @@
+seaborn
+
+tabulate
+
+scikit-learn
+
+rich

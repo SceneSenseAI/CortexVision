@@ -1,0 +1,14 @@
+torch
+torchvision
+torchaudio
+
+transformers
+accelerate
+
+timm
+
+einops
+
+supervision
+
+scikit-image

@@ -1,0 +1,17 @@
+pytest
+
+pytest-cov
+
+black
+
+ruff
+
+isort
+
+mypy
+
+jupyter
+
+ipykernel
+
+notebook

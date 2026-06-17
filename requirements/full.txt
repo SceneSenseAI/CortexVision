@@ -1,0 +1,29 @@
+-r core.txt
+
+-r vision.txt
+
+-r detection.txt
+
+-r depth.txt
+
+-r flow.txt
+
+-r segmentation.txt
+
+-r tracking.txt
+
+-r pose.txt
+
+-r scene_graph.txt
+
+-r audio.txt
+
+-r temporal.txt
+
+-r vlm.txt
+
+-r dashboard.txt
+
+-r evaluation.txt
+
+-r dev.txt
