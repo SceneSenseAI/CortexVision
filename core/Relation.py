@@ -5,15 +5,14 @@ from typing import Any
 # represents one edge of the graph
 
 @dataclass
+
 class Relation:
 
     subject_id: int
 
-    predicate: str
-
     object_id: int
 
-    relation_type: str
+    predicate: str
 
     confidence: float
 

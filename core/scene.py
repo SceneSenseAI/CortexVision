@@ -1,10 +1,10 @@
 from dataclasses import dataclass, field
 from datetime import datetime
 from typing import List
-from Relation import Relation
+from core.Relation import Relation
 from core.object import SceneObject
-from frame import Frame
-
+from core.frame import Frame
+from core.track import Track
 @dataclass
 class Scene:
     """
@@ -14,7 +14,7 @@ class Scene:
     frame :Frame 
     brightness: float
 
-    objects: List[SceneObject] = field(default_factory=list)
+    tracks: list[Track]
 
     relations: list[Relation] = field(default_factory=list)
 

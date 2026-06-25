@@ -10,8 +10,6 @@ class SceneObject:
     Represents a real-world entity detected in a scene.
     """
 
-    object_id: int
-
     label: str
 
     confidence: float
@@ -24,22 +22,14 @@ class SceneObject:
 
     depth: float | None = None             # meters
 
-    speed: float = 0.0                     # m/s
-
-    direction: float = 0.0                 # degrees
-
-    is_stationary: bool = True
-
     attributes: dict[str, Any] = field(default_factory=dict)
 
     def __repr__(self):
 
         return (
 
-            f"{self.label}(id={self.object_id}, "
+            f"{self.label}, "
 
             f"depth={self.depth}, "
-
-            f"speed={self.speed:.2f})"
 
         )

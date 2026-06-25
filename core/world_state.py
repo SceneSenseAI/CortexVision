@@ -5,7 +5,7 @@ from typing import List
 from core.scene import Scene
 from core.event import Event
 
-from HistoryBuffer import HistoryBuffer
+from core.HistoryBuffer import HistoryBuffer
 
 @dataclass
 class WorldState:

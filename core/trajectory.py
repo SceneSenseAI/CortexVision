@@ -8,7 +8,7 @@ class Trajectory:
 
     object_id: int
 
-    positions: list[tuple[float, float]] = field(default_factory=list)
+    history: list[tuple[float, float]] = field(default_factory=list)    ##(x,y,t)
 
     speed: float = 0.0
 
