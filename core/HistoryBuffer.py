@@ -14,3 +14,25 @@ class HistoryBuffer:
     trajectories: dict[int, Track] = field(default_factory=dict)
 
     events: list[Event] = field(default_factory=list)
+
+    def to_dict(self):
+
+        return {
+
+            "scenes":[
+
+                scene.to_dict()
+
+                for scene in self.scenes
+
+            ],
+
+            "events":[
+
+                event.to_dict()
+
+                for event in self.events
+
+            ]
+
+        }

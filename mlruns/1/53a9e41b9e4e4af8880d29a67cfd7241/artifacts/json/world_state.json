@@ -1,0 +1,470 @@
+{
+    "current_scene": {
+        "frame": {
+            "frame_id": 5,
+            "timestamp": 1782427463.57551,
+            "fps": 2.2434195922877747
+        },
+        "brightness": 0.8,
+        "tracks": [
+            {
+                "track_id": 9,
+                "age": 1,
+                "hits": 1,
+                "missed_frames": 0,
+                "scene_object": {
+                    "label": "person",
+                    "confidence": 0.98,
+                    "bbox": [
+                        100,
+                        50,
+                        220,
+                        420
+                    ],
+                    "centroid": [
+                        160,
+                        235
+                    ],
+                    "depth": 2.3,
+                    "attributes": {}
+                },
+                "trajectory": {
+                    "object_id": 9,
+                    "history": [],
+                    "speed": 0.0,
+                    "direction": 0.0,
+                    "predicted_path": []
+                }
+            },
+            {
+                "track_id": 10,
+                "age": 1,
+                "hits": 1,
+                "missed_frames": 0,
+                "scene_object": {
+                    "label": "chair",
+                    "confidence": 0.94,
+                    "bbox": [
+                        300,
+                        210,
+                        410,
+                        420
+                    ],
+                    "centroid": [
+                        355,
+                        315
+                    ],
+                    "depth": 3.1,
+                    "attributes": {}
+                },
+                "trajectory": {
+                    "object_id": 10,
+                    "history": [],
+                    "speed": 0.0,
+                    "direction": 0.0,
+                    "predicted_path": []
+                }
+            }
+        ],
+        "relations": [
+            {
+                "subject_id": 9,
+                "object_id": 10,
+                "predicate": "next_to",
+                "confidence": 0.95,
+                "distance": 1.2
+            }
+        ]
+    },
+    "history": {
+        "scenes": [
+            {
+                "frame": {
+                    "frame_id": 1,
+                    "timestamp": 1782427461.132936,
+                    "fps": 118.08953206824708
+                },
+                "brightness": 0.8,
+                "tracks": [
+                    {
+                        "track_id": 1,
+                        "age": 1,
+                        "hits": 1,
+                        "missed_frames": 0,
+                        "scene_object": {
+                            "label": "person",
+                            "confidence": 0.98,
+                            "bbox": [
+                                100,
+                                50,
+                                220,
+                                420
+                            ],
+                            "centroid": [
+                                160,
+                                235
+                            ],
+                            "depth": 2.3,
+                            "attributes": {}
+                        },
+                        "trajectory": {
+                            "object_id": 1,
+                            "history": [],
+                            "speed": 0.0,
+                            "direction": 0.0,
+                            "predicted_path": []
+                        }
+                    },
+                    {
+                        "track_id": 2,
+                        "age": 1,
+                        "hits": 1,
+                        "missed_frames": 0,
+                        "scene_object": {
+                            "label": "chair",
+                            "confidence": 0.94,
+                            "bbox": [
+                                300,
+                                210,
+                                410,
+                                420
+                            ],
+                            "centroid": [
+                                355,
+                                315
+                            ],
+                            "depth": 3.1,
+                            "attributes": {}
+                        },
+                        "trajectory": {
+                            "object_id": 2,
+                            "history": [],
+                            "speed": 0.0,
+                            "direction": 0.0,
+                            "predicted_path": []
+                        }
+                    }
+                ],
+                "relations": [
+                    {
+                        "subject_id": 1,
+                        "object_id": 2,
+                        "predicate": "next_to",
+                        "confidence": 0.95,
+                        "distance": 1.2
+                    }
+                ]
+            },
+            {
+                "frame": {
+                    "frame_id": 2,
+                    "timestamp": 1782427461.8651688,
+                    "fps": 1.3656858687805804
+                },
+                "brightness": 0.8,
+                "tracks": [
+                    {
+                        "track_id": 3,
+                        "age": 1,
+                        "hits": 1,
+                        "missed_frames": 0,
+                        "scene_object": {
+                            "label": "person",
+                            "confidence": 0.98,
+                            "bbox": [
+                                100,
+                                50,
+                                220,
+                                420
+                            ],
+                            "centroid": [
+                                160,
+                                235
+                            ],
+                            "depth": 2.3,
+                            "attributes": {}
+                        },
+                        "trajectory": {
+                            "object_id": 3,
+                            "history": [],
+                            "speed": 0.0,
+                            "direction": 0.0,
+                            "predicted_path": []
+                        }
+                    },
+                    {
+                        "track_id": 4,
+                        "age": 1,
+                        "hits": 1,
+                        "missed_frames": 0,
+                        "scene_object": {
+                            "label": "chair",
+                            "confidence": 0.94,
+                            "bbox": [
+                                300,
+                                210,
+                                410,
+                                420
+                            ],
+                            "centroid": [
+                                355,
+                                315
+                            ],
+                            "depth": 3.1,
+                            "attributes": {}
+                        },
+                        "trajectory": {
+                            "object_id": 4,
+                            "history": [],
+                            "speed": 0.0,
+                            "direction": 0.0,
+                            "predicted_path": []
+                        }
+                    }
+                ],
+                "relations": [
+                    {
+                        "subject_id": 3,
+                        "object_id": 4,
+                        "predicate": "next_to",
+                        "confidence": 0.95,
+                        "distance": 1.2
+                    }
+                ]
+            },
+            {
+                "frame": {
+                    "frame_id": 3,
+                    "timestamp": 1782427462.48861,
+                    "fps": 1.6040004558488234
+                },
+                "brightness": 0.8,
+                "tracks": [
+                    {
+                        "track_id": 5,
+                        "age": 1,
+                        "hits": 1,
+                        "missed_frames": 0,
+                        "scene_object": {
+                            "label": "person",
+                            "confidence": 0.98,
+                            "bbox": [
+                                100,
+                                50,
+                                220,
+                                420
+                            ],
+                            "centroid": [
+                                160,
+                                235
+                            ],
+                            "depth": 2.3,
+                            "attributes": {}
+                        },
+                        "trajectory": {
+                            "object_id": 5,
+                            "history": [],
+                            "speed": 0.0,
+                            "direction": 0.0,
+                            "predicted_path": []
+                        }
+                    },
+                    {
+                        "track_id": 6,
+                        "age": 1,
+                        "hits": 1,
+                        "missed_frames": 0,
+                        "scene_object": {
+                            "label": "chair",
+                            "confidence": 0.94,
+                            "bbox": [
+                                300,
+                                210,
+                                410,
+                                420
+                            ],
+                            "centroid": [
+                                355,
+                                315
+                            ],
+                            "depth": 3.1,
+                            "attributes": {}
+                        },
+                        "trajectory": {
+                            "object_id": 6,
+                            "history": [],
+                            "speed": 0.0,
+                            "direction": 0.0,
+                            "predicted_path": []
+                        }
+                    }
+                ],
+                "relations": [
+                    {
+                        "subject_id": 5,
+                        "object_id": 6,
+                        "predicate": "next_to",
+                        "confidence": 0.95,
+                        "distance": 1.2
+                    }
+                ]
+            },
+            {
+                "frame": {
+                    "frame_id": 4,
+                    "timestamp": 1782427463.129762,
+                    "fps": 1.559692784359282
+                },
+                "brightness": 0.8,
+                "tracks": [
+                    {
+                        "track_id": 7,
+                        "age": 1,
+                        "hits": 1,
+                        "missed_frames": 0,
+                        "scene_object": {
+                            "label": "person",
+                            "confidence": 0.98,
+                            "bbox": [
+                                100,
+                                50,
+                                220,
+                                420
+                            ],
+                            "centroid": [
+                                160,
+                                235
+                            ],
+                            "depth": 2.3,
+                            "attributes": {}
+                        },
+                        "trajectory": {
+                            "object_id": 7,
+                            "history": [],
+                            "speed": 0.0,
+                            "direction": 0.0,
+                            "predicted_path": []
+                        }
+                    },
+                    {
+                        "track_id": 8,
+                        "age": 1,
+                        "hits": 1,
+                        "missed_frames": 0,
+                        "scene_object": {
+                            "label": "chair",
+                            "confidence": 0.94,
+                            "bbox": [
+                                300,
+                                210,
+                                410,
+                                420
+                            ],
+                            "centroid": [
+                                355,
+                                315
+                            ],
+                            "depth": 3.1,
+                            "attributes": {}
+                        },
+                        "trajectory": {
+                            "object_id": 8,
+                            "history": [],
+                            "speed": 0.0,
+                            "direction": 0.0,
+                            "predicted_path": []
+                        }
+                    }
+                ],
+                "relations": [
+                    {
+                        "subject_id": 7,
+                        "object_id": 8,
+                        "predicate": "next_to",
+                        "confidence": 0.95,
+                        "distance": 1.2
+                    }
+                ]
+            },
+            {
+                "frame": {
+                    "frame_id": 5,
+                    "timestamp": 1782427463.57551,
+                    "fps": 2.2434195922877747
+                },
+                "brightness": 0.8,
+                "tracks": [
+                    {
+                        "track_id": 9,
+                        "age": 1,
+                        "hits": 1,
+                        "missed_frames": 0,
+                        "scene_object": {
+                            "label": "person",
+                            "confidence": 0.98,
+                            "bbox": [
+                                100,
+                                50,
+                                220,
+                                420
+                            ],
+                            "centroid": [
+                                160,
+                                235
+                            ],
+                            "depth": 2.3,
+                            "attributes": {}
+                        },
+                        "trajectory": {
+                            "object_id": 9,
+                            "history": [],
+                            "speed": 0.0,
+                            "direction": 0.0,
+                            "predicted_path": []
+                        }
+                    },
+                    {
+                        "track_id": 10,
+                        "age": 1,
+                        "hits": 1,
+                        "missed_frames": 0,
+                        "scene_object": {
+                            "label": "chair",
+                            "confidence": 0.94,
+                            "bbox": [
+                                300,
+                                210,
+                                410,
+                                420
+                            ],
+                            "centroid": [
+                                355,
+                                315
+                            ],
+                            "depth": 3.1,
+                            "attributes": {}
+                        },
+                        "trajectory": {
+                            "object_id": 10,
+                            "history": [],
+                            "speed": 0.0,
+                            "direction": 0.0,
+                            "predicted_path": []
+                        }
+                    }
+                ],
+                "relations": [
+                    {
+                        "subject_id": 9,
+                        "object_id": 10,
+                        "predicate": "next_to",
+                        "confidence": 0.95,
+                        "distance": 1.2
+                    }
+                ]
+            }
+        ],
+        "events": []
+    },
+    "created_at": "2026-06-26 04:14:23.746404"
+}

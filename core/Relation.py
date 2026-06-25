@@ -17,3 +17,18 @@ class Relation:
     confidence: float
 
     distance: float | None = None
+    def to_dict(self):
+
+        return {
+
+            "subject_id": self.subject_id,
+
+            "object_id": self.object_id,
+
+            "predicate": self.predicate,
+
+            "confidence": self.confidence,
+
+            "distance": self.distance
+
+        }

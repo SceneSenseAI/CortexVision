@@ -15,3 +15,19 @@ class Trajectory:
     direction: float = 0.0
 
     predicted_path: list[tuple[float, float]] = field(default_factory=list)
+
+    def to_dict(self):
+
+        return {
+
+            "object_id": self.object_id,
+
+            "history": self.history,
+
+            "speed": self.speed,
+
+            "direction": self.direction,
+
+            "predicted_path": self.predicted_path
+
+        }

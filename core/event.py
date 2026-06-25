@@ -26,10 +26,26 @@ class Event:
 
     metadata: dict[str, Any] = field(default_factory=dict)
 
+    def to_dict(self):
 
+        return {
 
-    
+            "timestamp": str(self.timestamp),
 
-    
+            "event_type": self.event_type,
 
-    
+            "source_id": self.source_id,
+
+            "target_id": self.target_id,
+
+            "description": self.description,
+
+            "distance_change": self.distance_change,
+
+            "depth_change": self.depth_change
+
+        }
+
+        
+
+        
