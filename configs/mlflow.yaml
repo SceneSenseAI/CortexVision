@@ -1,0 +1,11 @@
+experiment_name: CortexVision
+
+
+tracking_uri: sqlite:///mlflow.db
+
+tags:
+  project: SceneSenseAI
+  author: Parth
+
+default_run_name: Experiment
+

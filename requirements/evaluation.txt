@@ -5,3 +5,5 @@ tabulate
 scikit-learn
 
 rich
+
+mlflow>=3.0.0
